@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  xi_music:
+    build:
+      context: ./xi_music
+      dockerfile: Dockerfile
+    container_name: xi_music_bot
+    image: fr1nge/xi_music:latest
+          
+  xi_comic:
+    build:
+      context: ./xi_comic
+      dockerfile: Dockerfile
+    container_name: xi_comic_bot
+    image: fr1nge/xi_comic:latest
+    
+  xi_ranker:
+    build:
+      context: ./xi_ranker
+      dockerfile: Dockerfile
+    container_name: xi_ranker_bot
+    image: fr1nge/xi_ranker:latest
+

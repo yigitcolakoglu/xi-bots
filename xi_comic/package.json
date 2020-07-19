@@ -1,0 +1,15 @@
+{
+  "name": "xi_master",
+  "version": "1.0.0",
+  "description": "A master music bot for our xi network discord server",
+  "author": "Fringe <yigit@yigitcolakoglu.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "sqlite3": "^5.0.0",
+    "xkcd-api": "^1.2.0"
+  }
+}

@@ -1,0 +1,10 @@
+*/node_modules
+.gitsecret/keys/random_seed
+!*.secret
+.keys
+xi_tracker/config.json
+xi_music/config.json
+xi_music/commands/secrets.json
+xi_comic/config.json
+xi_news/config.json
+init_db.sql

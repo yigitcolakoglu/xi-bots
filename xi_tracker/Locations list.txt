@@ -1,0 +1,28 @@
+Locations list:
+1.Organisation 56/68
+2.Domain 732/58
+3.SPF records 1216/64
+4.Subdomain bruteforce 1216/283
+5.passive DNS 1216/520
+6.assetfinder + plausability check 1216/742
+7.Resolve 2202/330
+8.List of Subdomains 2014/666
+9.altdns 2391/666
+10.IPS 2932/328
+11.Masscan all TCP ports 3309/333
+12.VHost discovery 2932/666
+13.Open ports 3721/333
+14.GetAllURLs 969/1116
+15.Check Github 967/1341
+16.Search Engines 966/1566
+17.Subdomain Takeover 2020/1084
+18.httprobe 2392/1084
+19.List of IPs with HTTP=service 3196/1076
+20.Nmap service enumeratiom 4200/549
+21.Vulnerability scan4200/987
+22.Login brute force 4590/990
+
+
+
+
+In our house, our only source of income is my dad. Since the outbreak we have experienced a recession nationwide, effecting my daily live. On top of that, I'm currently
