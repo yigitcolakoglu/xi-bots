@@ -8,3 +8,4 @@ xi_music/commands/secrets.json
 xi_comic/config.json
 xi_news/config.json
 init_db.sql
+xi_manager/config.json
