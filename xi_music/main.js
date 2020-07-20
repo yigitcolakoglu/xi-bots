@@ -57,19 +57,6 @@ client.on('message', async message => {
 		}
 	}
 
-	if (permitted_roles){
-        for(i = 0; i < permitted_roles.length; i++){
-            if(message.member.roles.cache.has(permitted_roles[i])){
-                has_roles = true
-            }
-        }
-
-        if (!has_roles){
-            message.reply('You are not allowed to run this command!');
-            return;
-        }
-    }
-
     if(permitted_channels){
         msg_channel = message.channel;
         channel_allowed = false

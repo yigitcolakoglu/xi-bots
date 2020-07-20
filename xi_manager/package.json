@@ -1,0 +1,16 @@
+{
+  "name": "xi_manager",
+  "version": "1.0.0",
+  "description": "A Manager bot for our discord server",
+  "author": "Fr1nge <yigit@yigitcolakoglu.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mongoose": "^5.9.25",
+    "node-fetch": "^2.6.0",
+    "trello-node-api": "0.0.9"
+  }
+}

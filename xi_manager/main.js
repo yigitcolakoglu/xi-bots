@@ -199,7 +199,10 @@ client.on('messageReactionAdd', async (reaction, user) => {
                 let user_data = await userModel.find({_id: user.id}, "profession rank")
                 let profession = user_data[0].profession
                 let rank = user_data[0].rank
-        
+                if(profession.indexOf(reaction_to_prof[emoji][1]) != -1){
+                    return;
+                }
+
                 if(limits[rank] < profession.length + 1 && limits[rank] !== 0){
                     user.send(`You cannot have more than ${limits[rank]} professions at this rank!`)
                     return;
@@ -252,9 +255,12 @@ client.on('messageReactionRemove', async (reaction, user) => {
                 let user_data = await userModel.find({_id: user.id}, "profession rank")
                 let profession = user_data[0].profession
                 let rank = user_data[0].rank
-        
+                let profession_index = profession.indexOf(reaction_to_prof[emoji][1])
+
                 if(profession_index != -1){
                     profession.splice(profession_index, 1)
+                }else{
+                    return;
                 }
 
                 member.roles.remove(reaction_to_prof[emoji][0]);
