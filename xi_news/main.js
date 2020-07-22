@@ -54,7 +54,7 @@ console.log(client.commands);
 client.once('ready', () => {
 	console.log('Ready!');
 	console.log('Before job instantiation');
-	const job = new CronJob('00 21 13 * * *', function () {
+	const job = new CronJob('00 30 09 * * *', function () {
 		client.channels.cache.get(`734387503464710165`).send(`rss time`);
 		execute();
 
